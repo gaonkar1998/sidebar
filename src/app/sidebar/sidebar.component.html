@@ -1,0 +1,78 @@
+<div class="wrapper">
+    <!-- Sidebar Holder -->
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <h3 class="heading">NOTION</h3>
+        <strong class="heading">N</strong>
+      </div>
+  
+      <ul class="list-unstyled components">
+        <li>
+          <a routerLink="dashboard" class="dashboard">
+            <i class="fas fa-th-large"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="dashboard">
+            <i class="fab fa-youtube"></i>
+            <span>Project Management</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="channel" class="dashboard">
+            <i class="fas fa-user-friends"></i>
+            <span>Channel Management</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/role" class="dashboard">
+            <i class="fas fa-link"></i>
+            <span>Role Management</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="dashboard">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <span>User Management</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="dashboard">
+            <i class="fas fa-power-off"></i>
+            <span class="logout">Logout</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  
+    <!-- Page Content Holder -->
+    <div id="content">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-default">
+          <button type="button" id="sidebarCollapse" class="btn btn-default navbar-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-lines-fill" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm7 1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm2 9a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z" />
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+            <div class="nav navbar-nav navbar-right ml-auto">
+              <img src="../assets/images/admin.png" alt="something" class="img-fluid" width="50" height="50">
+              <span class="navbar-text my-auto">
+                Admin
+              </span>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <router-outlet></router-outlet>
+    </div> 
+  </div>
+  
+    

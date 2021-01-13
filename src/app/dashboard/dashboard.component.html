@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="chart-wrapper"> 
+                <canvas baseChart 
+                    [datasets]="lineChartData" 
+                    [labels]="lineChartLabels" 
+                    [options]="lineChartOptions"
+                    [colors]="lineChartColors" 
+                    [colors]="lineChartColors"
+                    [chartType]="barChartType1" 
+                    [plugins]="lineChartPlugins">
+                </canvas>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="chart-wrapper">
+                <canvas baseChart 
+                [datasets]="barChartData"
+                [colors]="barChartColors"
+                [labels]="barChartLabels"
+                [options]="barChartOptions"
+                [plugins]="barChartPlugins"
+                [legend]="barChartLegend"
+                [chartType]="barChartType">
+              </canvas>
+            </div>
+        </div>
+    </div>
+    </div>

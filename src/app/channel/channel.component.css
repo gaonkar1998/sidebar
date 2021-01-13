@@ -1,0 +1,32 @@
+.container
+{
+    background-color: white;
+    margin-top: 30px;
+}
+.sectionName
+{
+    color: #2E384D;
+    font-size: 22px;
+    text-transform:uppercase ;
+    font-weight: bold;
+}
+.btn-info{
+    margin:20px;
+    background-color:#0091d5;
+}
+.modal-header{
+    background-color:#0091d5 ;
+    color: white;
+}
+.close{
+    color: white;
+}
+.modal-title{
+    font-size: 20px;;
+}
+.label{
+    color: #b0bac9;  
+}
+table{
+    border-left: 3px solid #0091d5;
+}
